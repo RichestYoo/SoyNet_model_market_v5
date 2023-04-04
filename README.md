@@ -32,7 +32,12 @@ dll file (Windows)
 
 ```
    ├─3party             : third party file to run sample code
-   ├─Samples            : sample code of AI model (such as yolov5...)
+   ├─Samples            : sample code of AI model on c++ (such as yolov5...)
+   |  ├─model
+   |  |  ├─weights      
+   |  |  |  └─ww.py     : you can make soynet weight file from your own weight file
+   |  |  └─model.cpp    : execution file
+   |  └─main.cpp        : main on c++
    ├─SoyNetV5           : include SoyNetV5.sln for running c++ code
    ├─bin                : *.dll file for running soynetV5
    ├─data               : sample data(such as jpg, mp4..) for sample code
@@ -49,7 +54,7 @@ dll file (Windows)
    └─layer_dict_V5.1.0  : dictionary file for soynet layer
 ```
  - `engines` : it's made at the first time execution or when you modify the configs file.
- - `weights` : You can download .weights file from `download_soynet_weight.py` in [weights folder](#folder-structure).
+ - `weights` : You can make .weights file from your own trained weight file(ex. *.pt) on ww.py in [weights folder](#folder-structure).
  - `license file` : Please contact [SoyNet](https://soynet.io/) if the time has passed.
  
  ## SoyNet Function
