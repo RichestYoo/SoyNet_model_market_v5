@@ -74,7 +74,7 @@ dll file (Windows)
 ## Prerequisites
 #### NVIDA Development Environment
 CUDA version that GPU driver supports.
- - CUDA (= 12.0)
+ - CUDA (>= 12.0)
  
     ※ You need to use .dll and .so files that match CDUA and TensorRT versions. If you want another version, Please contact [SoyNet](https://soynet.io/).
     
